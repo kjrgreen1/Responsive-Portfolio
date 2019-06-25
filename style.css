@@ -83,7 +83,7 @@ h2{
 
 .btn_con {
     position: relative;
-    width:42%;
+    width:44%;
     margin-right: 40px;
     margin-bottom: 40px;
     float: left;
@@ -251,7 +251,6 @@ footer {
     }
 
     .btn_con {
-        position: relative;
         width:99%;
     }
     
