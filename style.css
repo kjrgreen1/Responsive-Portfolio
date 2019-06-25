@@ -42,7 +42,8 @@ header {
 #tabs {
     position: absolute;
     bottom: 0;
-    right: 20px;
+    right: 0;
+    margin-right: 60px;
     padding-bottom: 40px;
     font-size: 1.2em;
 }
@@ -72,7 +73,7 @@ h2{
 .container {
     background-color: #ffffff;
     width: 920px;
-    margin-left: 60px;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     overflow: auto;
@@ -81,7 +82,7 @@ h2{
 
 .btn_con {
     position: relative;
-    width:400px;
+    width:200px;
     margin-right: 40px;
     margin-bottom: 40px;
     float: left;
@@ -109,7 +110,7 @@ h2{
     border: none;
     cursor: pointer;
     display: inline-block;
-    width: 400px;
+    width: 200px;
   }
 
 .contactForm {
@@ -186,7 +187,33 @@ footer {
 
 /* Media Queries */
 
+@media screen and (max-width: 980px) {
+    #white_on_teal {
+        margin-left: 60px;
+    }
+
+    .container {
+        clear: both;
+        margin-left: 60px;
+        width: 668px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
+    #white_on_teal {
+        margin-left: 20px;
+    }
+    
+    #tabs {
+        right: 0px;
+        margin-right: 20px;
+    }
+
+    .container {
+        margin-left: 20px;
+        width: 668px;
+    }
 
 }
 
