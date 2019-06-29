@@ -164,6 +164,10 @@ input[type=submit]:hover {
     margin-right: 20px;
 }
 
+.bio-image img{
+    max-width: 225px;
+}
+
 p {
     color: #777777;
     font-size: 1.25em;
@@ -245,13 +249,20 @@ footer {
     }
 
     .container {
-        margin-top: 60px;
-        margin-left: 20px;
-        width: 540px;
+        margin: 60px 5% 0;
+        width: 80%;
     }
 
     .btn_con {
         width:99%;
+    }
+
+    .bio-image img{
+        max-width: 100%;
+    }
+
+    .bio-image {
+        margin-right: 0px;
     }
     
 }
