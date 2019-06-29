@@ -194,13 +194,17 @@ footer {
 
 @media screen and (max-width: 980px) {
     #white_on_teal {
-        margin-left: 60px;
+        margin-left: 7.5%;
+    }
+
+    #tabs {
+        margin-right: 7.5%;
     }
 
     .container {
         clear: both;
-        margin-left: 60px;
-        width: 668px;
+        margin: 0 7.5%;
+        width: 80%;
     }
 
 }
@@ -216,8 +220,8 @@ footer {
     }
 
     .container {
-        margin-left: 20px;
-        width: 668px;
+        margin: 0 2.5%;
+        width: 90%;
     }
 
 }
